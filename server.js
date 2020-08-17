@@ -17,10 +17,4 @@ const server = new GraphQLServer({
   resolvers,
 });
 
-// const PORT = process.env.PORT || 4000;
-
-// server.listen({ PORT }).then(({ url }) => {
-//   console.log(`Server is ready at ${url}`);
-// });
-
 server.start(() => console.log('Server listening at 4000'));
