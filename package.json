@@ -4,7 +4,9 @@
   "description": "Product list",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "nodemon -w app.js",
+    "build": "next build",
+    "start": "nodemon app.js"
   },
   "keywords": [
     "graphql",
