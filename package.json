@@ -15,6 +15,7 @@
   "author": "chand",
   "license": "ISC",
   "dependencies": {
+    "core-util-is": "^1.0.2",
     "express": "^4.17.1",
     "graphql-yoga": "^1.18.3",
     "notarealdb": "^0.2.2"
