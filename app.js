@@ -4,7 +4,6 @@ const Query = require('./resolvers/Query');
 const Mutation = require('./resolvers/Mutation');
 const Product = require('./resolvers/Product');
 const Brand = require('./resolvers/Brand');
-var express = require('express');
 
 const resolvers = {
   Query,
