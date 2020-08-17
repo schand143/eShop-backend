@@ -4,8 +4,7 @@
   "description": "Product list",
   "main": "index.js",
   "scripts": {
-    "serve ": "node --ignore data/ server.js",
-    "start": "node --ignore data/ server.js"
+    "start": "nodemon --ignore data/ server.js"
   },
   "keywords": [
     "graphql",
