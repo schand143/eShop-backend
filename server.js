@@ -18,3 +18,6 @@ const server = new GraphQLServer({
 });
 
 server.start(() => console.log('Server listening at 4000'));
+
+// server.listen(3001, () => {});
+// console.log('Node server running on port 3000');
